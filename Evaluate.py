@@ -1,3 +1,6 @@
+# 修复 Python 3.6 兼容性问题：必须在导入 musdb 之前执行
+import fix_importlib
+
 import numpy as np
 import tensorflow as tf
 import librosa
